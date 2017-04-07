@@ -1,0 +1,18 @@
+
+<b> Pig Latin Translator! </b>
+<br />
+
+<p>
+<form action = "{% url 'translate' %}">
+  <input type="text" name = "originaltext"/>
+  <br />
+  <br />
+  <input type="submit" value = "Translate" />
+</form>
+</p>
+
+<p>
+  <form action = "{% url 'about' %}">
+    <input type = 'submit' value = 'About' />
+  </form>
+</p>
